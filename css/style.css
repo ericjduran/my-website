@@ -1,0 +1,141 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+html{
+    background: yellow;
+}
+
+.container {
+    padding: 20px;
+    background: #333;
+    overflow: auto;
+    max-width: 960px;
+    margin: auto;
+}
+
+.banner {
+    width: 100%;
+    height: 100px;
+    background: url(../images/microphone-626618_640.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    position: relative;
+}
+.banner h1 {
+    color: #ffffff;
+    font-size: 35px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    background: black;
+    clear: left;
+    float: left;
+}
+
+.main-nav ul {
+    list-style: none;
+}
+
+.main-nav ul li {
+    width: 25%;
+    float: left;
+}
+
+.main-nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 80%;
+    line-height: 60px;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.main-nav ul li a:hover {
+    font-size: 30px;
+}
+
+aside {
+    width: 30%;
+    height: 500px;
+    background: green;
+    clear: left;
+    float: left;
+}
+
+main {
+    width: 70%;
+    height: 500px;
+    background: pink;
+    float: left;
+}
+
+.header-style-1 {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: bottom 3px solid black;
+    
+}
+
+audio.img {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}
+
+main p {
+    padding: 20px;
+}
+
+.drop-cap.first-letter {
+    float: left;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    background: orange;
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
